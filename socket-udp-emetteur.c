@@ -6,7 +6,7 @@
 #include <sys/socket.h>
 #include <netinet/in.h>
 #include <stdio.h>
-#include <stdlib.h>
+#include <stdlib.h> 
 
 /*  La réception de messages UDP nécessite de préciser l’adresse IP et le numéro de port sur lesquels les messages sont reçus. 
     Ces informations sont définies dans une prise socket représentée par la structure struct sockaddr_in en IPv4. */
